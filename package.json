@@ -1,0 +1,16 @@
+{
+  "name": "sheet-tools",
+  "version": "0.0.0",
+  "scripts": {
+    "format": "prettier --write --single-quote '**/*.js'",
+    "test": "ava"
+  },
+  "dependencies": {
+    "xlsx": "^0.11.6"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "fs-extra": "^4.0.2",
+    "prettier": "^1.7.4"
+  }
+}
