@@ -38,13 +38,3 @@ test('open xlsx file', t => {
     ]);
   });
 });
-
-test('open csv', t => {
-  return fs.readFile('sample.csv').then(file => {
-    const workbook = xlsx.read(file);
-
-    // console.log(extractWorkbookHeaders(workbook));
-
-    t.pass();
-  });
-});
