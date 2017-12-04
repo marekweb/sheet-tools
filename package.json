@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "scripts": {
     "format": "prettier --write --single-quote '**/*.js'",
-    "test": "ava"
+    "test": "ava test"
   },
   "dependencies": {
-    "xlsx": "^0.11.6"
+    "xlsx": "^0.11.12"
   },
   "devDependencies": {
-    "ava": "^0.22.0",
+    "ava": "^0.24.0",
     "fs-extra": "^4.0.2",
-    "prettier": "^1.7.4"
+    "prettier": "^1.8.2"
   }
 }
